@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "VK expanded favourites",
+  "description": "This expansion allows to sort laying of VKontakte",
+  "version": "0.1",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://vk.com/*","https://vk.com/*"],
+      "css": ["styles/main.css"],
+      "js": ["scripts/vendors/jquery.min.js", "scripts/init.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "web_accessible_resources": [
+    "scripts/inner.js",
+    "scripts/favsPage.js"
+  ]
+}
