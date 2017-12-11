@@ -1,0 +1,16 @@
+export const ADD_FAV = 'ADD_FAV';
+export const DELETE_FAV = 'DELETE_FAV';
+
+export const ADD_FOLDER = 'ADD_FOLDER';
+export const DELETE_FOLDER = 'DELETE_FOLDER';
+export const CHANGE_FOLDER = 'CHANGE_FOLDER';
+
+export const START_CONFIGURE_FOLDER = 'START_CONFIGURE_FOLDER';
+export const END_CONFIGURE_FOLDER = 'END_CONFIGURE_FOLDER';
+
+export const START_EDIT_FOLDER = 'START_EDIT_FOLDER';
+export const END_EDIT_FOLDER = 'END_EDIT_FOLDER';
+
+export const SELECT_FOLDER = 'SELECT_FOLDER';
+
+export const FOLDER_NAME_MAX_LENGTH = 22;
